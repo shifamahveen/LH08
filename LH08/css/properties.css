@@ -1,0 +1,25 @@
+p {
+    color: green;
+    background-color: rgb(184, 235, 184);
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    width: 300px;
+    height: 300px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: justify;
+    padding: 10px;
+    border: 5px solid grey;
+    margin: 30px;
+    border-radius: 15px;
+}
+
+a{
+    color: blueviolet;
+    text-decoration: none;
+}
+
+ul {
+    height: 500px;
+    list-style-type: none;
+}
