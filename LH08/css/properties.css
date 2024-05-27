@@ -15,11 +15,27 @@ p {
 }
 
 a{
-    color: blueviolet;
+    color: white;
     text-decoration: none;
+    margin: auto;
+    background-color: blue;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 30px;
 }
 
 ul {
     height: 500px;
     list-style-type: none;
+}
+
+body{
+    background-color: blueviolet;
+}
+
+div{
+    background-color: white;
+    width: 50%;
+    text-align: center;
+    margin: auto;
 }

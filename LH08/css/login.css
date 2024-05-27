@@ -1,0 +1,16 @@
+button {
+     padding: 10px 20px; /* yaxis xaxis */
+     border-radius: 35px;
+     border: 0;
+     width: 200px;
+     background-image: linear-gradient(to right,#72c4e1, #de46f5);
+     color: white;
+     box-shadow: 5px 5px 10px gray;
+    /* padding: 5px 10px 20px 30px;
+    margin: 40px 20px; */
+}
+
+button:hover{
+    cursor: pointer;
+}
+/* flex */

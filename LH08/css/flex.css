@@ -1,0 +1,36 @@
+div {
+    width: 200px;
+    height: 200px;
+}
+
+section {
+    display: flex;
+    /* flex-direction: column-reverse; */
+    justify-content: space-evenly; /* space along xaxis */
+    align-items: center; /*space along y axis */
+}
+
+.first{
+    background-color: blue;
+}
+
+#sec {
+    background-color: red;
+}
+
+div:nth-of-type(1){
+    width: 400px;
+}
+/* 
+div:first-of-type {
+    color: white;
+} */
+
+div::first-letter{
+    font-size: 40px;
+}
+
+/* descendant selector */
+section div{
+    font-size: 50px;
+}
